@@ -1,0 +1,33 @@
+.nav-back{
+    font-size: 24px; 
+    color:#bfbfbf
+}
+.top-header{
+    color:#595959;
+    letter-spacing: 0.1em;
+}
+.background-header{
+    height: 180px;
+    background: url('../imgs/alfred.jpeg') center center no-repeat;
+    background-size: 300px;
+}
+.info1{
+    line-height:1em;
+    width:80%;
+    margin:10px auto;
+    font-size:22px
+}
+.info2{
+    line-height:1em;
+    width:86%;
+    margin:10px auto;
+}
+.list-container{
+    border-bottom: 1px solid #d9d9d9;
+}
+.list-icon{
+    font-size: 30px;
+    position: relative;
+    top:8px;
+    color:grey
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    
+    <ion-app>
+        <div class="col-lg-6 offset-lg-3">
+            <ion-header>
+                <div class="row">
+                    <div class="col-5 py-3">
+                        <div style="border-radius: 50%;width:120px;height: 120px;border:2px solid #3880FF;margin:auto">
+                            <ion-icon style="position: relative;top:43px;left:43px;font-size: 27px;color:#3880FF" name="bluetooth"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="col-7 p-3">
+                        <div>
+                            <h6 style="letter-spacing: 0.1em;">BT01191918898</h6>
+                        </div>
+                        <div>
+                            <span>Connectable</span>
+                        </div>
+                        <div class="mt-1 mb-1">
+                            <span><ion-icon style="font-size: 18px;color:#7a808b;position:relative;top:3px" name="bluetooth"></ion-icon> Blutooth</span>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col">
+                                <ion-icon style="font-size: 24px;" name="notifications-outline"></ion-icon>
+                            </div>
+                            <div class="col">
+                                <ion-icon style="font-size: 24px;" name="share-social-outline"></ion-icon>
+                            </div>
+                            <div class="col">
+                                <ion-icon style="font-size: 24px;" name="settings-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ion-header>
+        </div>
+      
+        <ion-content class="ion-padding">
+          <ion-tabs>
+
+            <ion-tab tab="tab-schedule">
+              <ion-nav></ion-nav>
+            </ion-tab>
+          
+            <ion-tab tab="tab-speaker">
+              <ion-nav></ion-nav>
+            </ion-tab>
+          
+            <ion-tab tab="tab-map" component="page-map">
+              <ion-nav></ion-nav>
+            </ion-tab>
+          
+            <ion-tab tab="tab-about" component="page-about">
+              <ion-nav></ion-nav>
+            </ion-tab>
+          
+            <ion-tab-bar slot="bottom">
+              <ion-tab-button tab="tab-schedule">
+                <ion-icon name="tablet-portrait-outline"></ion-icon>
+                <ion-label>Devices</ion-label>
+              </ion-tab-button>
+          
+              <ion-tab-button tab="tab-speaker">
+                <ion-icon name="people-outline"></ion-icon>
+                <ion-label>Members</ion-label>
+              </ion-tab-button>
+          
+              <ion-tab-button tab="tab-map">
+                <ion-icon name="chatbox-outline"></ion-icon>
+                <ion-label>Inbox</ion-label>
+              </ion-tab-button>
+          
+              <ion-tab-button tab="tab-about">
+                <ion-icon name="happy-outline"></ion-icon>
+                <ion-label>Me</ion-label>
+              </ion-tab-button>
+            </ion-tab-bar>
+          
+          </ion-tabs>
+        </ion-content>
+    </ion-app>
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@4.7.4/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@4.7.4/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
